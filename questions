@@ -1,0 +1,14 @@
+Would you change anything in what the server does regarding the routes or authentication?
+	yes, the authentication is a separated module of server, never include de auth methods in server api
+What kind of tests would you apply for this server/client?
+	in my case, for java Junit test for each endpoint, and server pytest is great option, unit test, integration test, hacking
+In the description above it's possible to fetch messages by a given tag, describe a strategy for fetching
+	save the messages with a field tag and it is a string field, when filter messages use a like expresion to get messages that contains word
+messages that match several tags.
+	possible
+How would you model the storage using a SQL database?
+	a kind of no relational database
+Would you recommend using a different kind of database for this? If so, which one(s) and why?
+	because the information is not relational and the scheme is a very simple, if i need more power of processing data non relational databases is a better option than relational databases.
+	jus like mongoDB, Cassandra y a better option
+

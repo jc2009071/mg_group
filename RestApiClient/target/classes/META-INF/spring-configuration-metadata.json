@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.master.group.application.configuration.ApplicationProperties",
+      "name": "apps.master.group.config",
+      "type": "com.master.group.application.configuration.ApplicationProperties"
+    },
+    {
+      "sourceType": "com.master.group.application.configuration.ApplicationProperties",
+      "name": "apps.master.group.config.rest",
+      "sourceMethod": "getRest()",
+      "type": "com.master.group.application.configuration.ApplicationProperties$RestApi"
+    }
+  ],
+  "properties": []
+}
